@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.views.decorators.csrf import csrf_exempt
-from django.utils.decorators import method_decorato
+from django.utils.decorators import method_decorator
 from rest_framework import status
 
 
